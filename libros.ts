@@ -1,8 +1,8 @@
 import GENEROS from "../libreria/genlibros";
 
-export class Books{
+export class Books{ 
    // atributos
-       protected nombreLibro : string;
+       protected nombreLibro : string; 
        private anioLibro: number;
        private generoLibro: string;
    
@@ -37,7 +37,7 @@ export class Books{
 class GestorBooks{
    private libro : Books[];
    
-   constructor(pLibro: Books[]){
+   constructor(pLibro: Books[]){ 
     this.libro = pLibro;
    }
    insertarLibro(libro:Books):void{
